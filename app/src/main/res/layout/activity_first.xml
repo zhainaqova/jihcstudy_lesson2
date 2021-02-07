@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstActivity"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android Sabaqtary"
+        android:textStyle="bold"
+        android:textColor="#009092"
+        android:textSize="32dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/sabaq1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="80dp"
+            android:text="Sabaq 1"
+            android:textStyle="italic"
+            android:textSize="24dp"
+            android:textColor="@color/black"/>
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="50dp"
+            android:background="#009092"
+            android:text="Bastau"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="24dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/sabaq2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="80dp"
+            android:text="Sabaq 2"
+            android:textStyle="italic"
+            android:textSize="24dp"
+            android:textColor="@color/black"/>
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="50dp"
+            android:background="#009092"
+            android:text="Bastau"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="24dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/sabaq3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="80dp"
+            android:text="Sabaq 3"
+            android:textStyle="italic"
+            android:textSize="24dp"
+            android:textColor="@color/black"/>
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="50dp"
+            android:background="#009092"
+            android:text="Bastau"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="24dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/sabaq4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="80dp"
+            android:text="Sabaq 4"
+            android:textStyle="italic"
+            android:textSize="24dp"
+            android:textColor="@color/black"/>
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="50dp"
+            android:background="#009092"
+            android:text="Bastau"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="24dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/sabaq5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="80dp"
+            android:text="Sabaq 5"
+            android:textStyle="italic"
+            android:textSize="24dp"
+            android:textColor="@color/black"/>
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="50dp"
+            android:background="#009092"
+            android:text="Bastau"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="24dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/sabaq6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="80dp"
+            android:text="Sabaq 6"
+            android:textStyle="italic"
+            android:textSize="24dp"
+            android:textColor="@color/black"/>
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="50dp"
+            android:background="#009092"
+            android:text="Bastau"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="24dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/sabaq7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="80dp"
+            android:text="Sabaq 7"
+            android:textStyle="italic"
+            android:textSize="24dp"
+            android:textColor="@color/black"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="50dp"
+            android:background="#009092"
+            android:text="Bastau"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="24dp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
